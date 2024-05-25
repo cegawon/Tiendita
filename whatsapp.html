@@ -1,0 +1,29 @@
+  <!-- whatsapp modal start -->
+        <input type="checkbox" id="check">
+    <div class="whatsapp_icon whatsapp_icon_ltr">
+        <label class="chat-btn" for="check">
+            <i class="fa-brands fa-whatsapp comment"></i>
+            <i class="fa fa-close close"></i>
+        </label>
+    </div>
+    <div class=" wrapper  wp_chat_box d-none">
+        <div class="msg_header">
+            <h6>MerkaPlace</h6>
+        </div>
+        <div class="text-start p-3 bg-msg">
+            <div class="card p-2 msg">
+   Le puedo ayudar en algo ?
+            </div>
+        </div>
+        <div class="chat-form">
+        
+            <form action="https://api.whatsapp.com/send" method="get" target="_blank" class="d-flex align-items-center d-grid gap-2">
+                <textarea class="form-control" name="text" placeholder="Tu mensaje de texto" required></textarea>
+                <input type="hidden" name="phone" value="+57 3008334903">
+                <button type="submit" class="btn btn-success btn-block">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+        <!-- whatsapp modal end -->
